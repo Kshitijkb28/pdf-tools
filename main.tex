@@ -1,0 +1,215 @@
+%!TEX program = pdflatex
+\documentclass[10.5pt, a4paper]{article}
+
+% ----------- Encoding & Font ---------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled=0.92]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% ----------- Layout ------------------------------------------
+\usepackage[left=0.48in, right=0.48in, top=0.25in, bottom=0.2in]{geometry}
+
+% ----------- Packages ----------------------------------------
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{microtype}
+
+% ----------- Color Palette -----------------------------------
+\definecolor{cvnavy}  {RGB}{15,  55, 110}
+\definecolor{cvsteel} {RGB}{52,  90, 150}
+\definecolor{cvdark}  {RGB}{38,  38,  38}
+\definecolor{cvgray}  {RGB}{95, 105, 120}
+\definecolor{cvgrayline}  {RGB}{195, 210, 228}
+
+% ----------- Hyperlinks --------------------------------------
+\hypersetup{colorlinks=true, urlcolor=cvsteel, linkcolor=cvsteel, pdfencoding=auto}
+
+% ----------- Section Style -----------------------------------
+\titleformat{\section}
+  {\fontsize{9pt}{11pt}\bfseries\color{cvnavy}\MakeUppercase}
+  {}{0em}{}
+  [\vspace{2pt}{\color[RGB]{195,210,228}\hrule height 0.75pt}\vspace{0.5pt}]
+\titlespacing{\section}{0pt}{4pt}{2pt}
+
+% ----------- Global ------------------------------------------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\color{cvdark}
+
+% ----------- Bullets -----------------------------------------
+\setlist[itemize]{
+  leftmargin=1.15em,
+  itemsep=0.5pt,
+  parsep=0pt,
+  topsep=1.5pt,
+  label={\color{cvsteel}\small$\bullet$}
+}
+
+% ----------- Experience Entry --------------------------------
+\newcommand{\expentry}[4]{%
+  \vspace{0.5pt}%
+  \begin{tabularx}{\linewidth}{@{} X r @{}}
+    {\fontsize{10pt}{12pt}\selectfont\bfseries\color{cvdark} #1}
+    \enspace{\textcolor[RGB]{195,210,228}{$|$}}\enspace
+    {\fontsize{9pt}{11pt}\selectfont\color{cvgray} #2}
+    &
+    {\fontsize{8.5pt}{10pt}\selectfont\color{cvgray} #3}
+  \end{tabularx}%
+  \ifx&#4&\else
+    \par\vspace{0.5pt}{\fontsize{8.5pt}{10pt}\selectfont\color{cvgray} #4}%
+  \fi
+  \vspace{1pt}%
+}
+
+% ----------- Project Entry -----------------------------------
+\newcommand{\projentry}[3]{%
+  \vspace{0.5pt}%
+  \begin{tabularx}{\linewidth}{@{} X r @{}}
+    {\fontsize{10pt}{12pt}\selectfont\bfseries\color{cvdark} #1}
+    &
+    {\fontsize{8.5pt}{10pt}\selectfont\color{cvgray} #2}
+  \end{tabularx}%
+  \par\vspace{0.5pt}%
+  {\fontsize{8.5pt}{10pt}\selectfont\color{cvsteel}\href{#3}{#3}}%
+  \vspace{1pt}%
+}
+
+% ----------- Education Entry ---------------------------------
+\newcommand{\eduentry}[4]{%
+  \vspace{0.5pt}%
+  \begin{tabularx}{\linewidth}{@{} X r @{}}
+    {\fontsize{10pt}{12pt}\selectfont\bfseries\color{cvdark} #1}
+    \enspace{\textcolor[RGB]{195,210,228}{$|$}}\enspace
+    {\fontsize{9pt}{11pt}\selectfont\color{cvgray} #2}
+    &
+    {\fontsize{8.5pt}{10pt}\selectfont\color{cvgray} #3}
+  \end{tabularx}%
+  \par\vspace{0.5pt}%
+  {\fontsize{9pt}{11pt}\selectfont\color{cvgray} #4}%
+  \vspace{1pt}%
+}
+
+% =============================================================
+\begin{document}
+\pagestyle{empty}
+
+% ----------- HEADER ------------------------------------------
+\begin{center}
+  {\fontsize{20pt}{24pt}\selectfont\bfseries\color{cvnavy} Kshitij Bhardwaj}\\[3pt]
+  {\fontsize{10.5pt}{13pt}\selectfont\color{cvgray} Full Stack Engineer}\\[4pt]
+  {\fontsize{9pt}{11pt}\selectfont\color{cvgray}
+    \href{mailto:Kshitijbhardwajkb28@gmail.com}{Kshitijbhardwajkb28@gmail.com}%
+    \enspace{\textcolor[RGB]{195,210,228}{$|$}}\enspace%
+    +91 97299 16844%
+    \enspace{\textcolor[RGB]{195,210,228}{$|$}}\enspace%
+    \href{https://kshitijkb28.github.io}{kshitijkb28.github.io}%
+    \enspace{\textcolor[RGB]{195,210,228}{$|$}}\enspace%
+    \href{https://www.linkedin.com/in/kshitij-bhardwaj-067240232}{LinkedIn}%
+    \enspace{\textcolor[RGB]{195,210,228}{$|$}}\enspace%
+    \href{https://github.com/Kshitijkb28}{GitHub}%
+  }
+\end{center}
+
+\vspace{1pt}
+
+% ----------- SUMMARY -----------------------------------------
+\section{Professional Summary}
+
+{\fontsize{9pt}{11.5pt}\selectfont
+Dedicated and results-oriented \textbf{Full Stack Engineer with 2+ years of experience} building scalable web applications and AI-powered systems. Experienced in backend development using \textbf{Python, Node.js, and Laravel}, with modern frontend skills in \textbf{React and JavaScript}. Skilled in \textbf{LLM post-training, prompt engineering, API development, and cloud deployment}. Focused on delivering high-quality, reliable solutions across the full stack.
+}
+
+% ----------- TECHNICAL SKILLS --------------------------------
+\section{Technical Skills}
+
+{\fontsize{9pt}{11.5pt}\selectfont
+{\renewcommand{\arraystretch}{1.25}%
+\begin{tabularx}{\linewidth}{@{}
+    >{\bfseries\color{cvnavy}\raggedright\arraybackslash} m{2.8cm}
+    X
+  @{}}
+  Languages      & PHP, Python, JavaScript, C++ \\
+  Frontend       & HTML, CSS, Bootstrap, JavaScript, React \\
+  Backend        & Laravel, Node.js, FastAPI, Flask \\
+  Databases      & MySQL, MongoDB, PostgreSQL \\
+  Cloud \& Tools & AWS S3, Linux Server Setup, Git, Docker \\
+  AI / LLM       & LLM Post-Training, Prompt Engineering, Model Evaluation, Dataset Preparation \\
+\end{tabularx}}
+}
+
+% ----------- PROFESSIONAL EXPERIENCE -------------------------
+\section{Professional Experience}
+
+\expentry{Full Stack Engineer}{Ethara AI}{Jan 2026 -- Present}{Gurugram, India}
+{\fontsize{9pt}{11.5pt}\selectfont
+\begin{itemize}
+  \item Building APIs and backend systems using \textbf{Python (FastAPI / Flask)} for AI-powered applications.
+  \item Contributing to \textbf{LLM post-training workflows} -- dataset preparation, evaluation pipelines, and response quality improvement.
+  \item Developing internal tools to support \textbf{AI model evaluation and prompt optimization}.
+  \item Integrating LLM capabilities into products for intelligent automation and enhanced user experiences.
+  \item Collaborating with cross-functional teams to improve AI system performance and reliability.
+\end{itemize}
+}
+
+\vspace{1pt}
+
+\expentry{Software Engineer}{Mind2web LLP}{Aug 2023 -- Oct 2025}{}
+{\fontsize{9pt}{11.5pt}\selectfont
+\begin{itemize}
+  \item Configured and deployed multiple production projects on servers, ensuring optimal performance.
+  \item Fixed critical bugs and optimized backend code to improve scalability and system reliability.
+  \item Set up \textbf{Linux servers} and configured environments (Apache, Nginx, PHP, Node.js).
+  \item Implemented security configurations, monitoring systems, and performance optimization strategies.
+\end{itemize}
+}
+
+% ----------- PROJECTS ----------------------------------------
+\section{Projects}
+
+\projentry{Yot Ecommerce}{Jan 2025 -- Oct 2025}{https://fuse.systems}
+{\fontsize{9pt}{11.5pt}\selectfont
+\begin{itemize}
+  \item Improved product search, workflows, and notifications using \textbf{Meilisearch, Ragic DB, and Twilio}.
+  \item Developed product management modules with \textbf{secure OAuth2 authentication}.
+  \item Built background jobs to fetch supplier data and auto-update product listings.
+  \item Implemented optimized \textbf{PostgreSQL queries} to retrieve and display listing data efficiently.
+\end{itemize}
+}
+
+\vspace{1pt}
+
+\projentry{Remodely}{Oct 2024 -- Dec 2025}{https://remodely.com}
+{\fontsize{9pt}{11.5pt}\selectfont
+\begin{itemize}
+  \item Built \textbf{service booking modules and admin dashboards} for bathroom and interior design services.
+  \item Improved UI functionality and integrated backend services for seamless booking management.
+\end{itemize}
+}
+
+\vspace{1pt}
+
+\projentry{Service Points}{Oct 2023 -- Oct 2024}{https://app.servicepoints.nl}
+{\fontsize{9pt}{11.5pt}\selectfont
+\begin{itemize}
+  \item Built and integrated \textbf{chatbot functionalities} using prompt engineering techniques.
+  \item Developed real-time chat features using \textbf{WebSockets and CKEditor} in Node.js.
+  \item Built performance monitoring charts showing \textbf{7-day page load trends} via automated cURL requests.
+  \item Resolved UI inconsistencies to improve visual quality and usability across the application.
+\end{itemize}
+}
+
+% ----------- EDUCATION ----------------------------------------
+\section{Education}
+
+\eduentry{B.Tech -- Computer Science}{Panipat Institute of Engineering and Technology}{Jul 2019 -- Jun 2023}{Score: 67.4\%}
+
+\vspace{1pt}
+
+\eduentry{12th -- Science}{Hindu Vidya Peeth}{Mar 2018 -- Mar 2019}{Score: 64\%}
+
+\end{document}

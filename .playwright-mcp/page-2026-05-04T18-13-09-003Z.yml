@@ -1,0 +1,419 @@
+- generic [ref=e3]:
+  - banner:
+    - navigation [ref=e4]:
+      - link "Home" [ref=e5]:
+        - /url: "#home"
+        - generic [ref=e6]: K
+        - generic [ref=e7]: Kshitij
+      - generic [ref=e8]:
+        - link "Home" [ref=e9]:
+          - /url: "#home"
+        - link "About" [ref=e11]:
+          - /url: "#about"
+        - link "Skills" [ref=e12]:
+          - /url: "#skills"
+        - link "Work" [ref=e13]:
+          - /url: "#work"
+        - link "Contact" [ref=e14]:
+          - /url: "#contact"
+          - text: Contact
+      - link "Resume" [ref=e15]:
+        - /url: /resume.tex
+        - text: Resume
+        - img [ref=e16]
+  - main [ref=e19]:
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]: Available for work · Gurugram, India
+        - heading "Full Stack Engineer." [level=1] [ref=e24]:
+          - generic [ref=e26]: Full Stack
+          - generic [ref=e28]:
+            - generic [ref=e29]: Engineer.
+            - generic [ref=e504]: ✺
+        - paragraph [ref=e30]: Building scalable web apps and AI-powered systems. 2+ years shipping production, from LLM pipelines to cloud deployments.
+        - generic [ref=e31]:
+          - link "View Projects" [ref=e32]:
+            - /url: "#work"
+            - text: View Projects
+            - img [ref=e33]
+          - link "Download CV" [ref=e36]:
+            - /url: /resume.tex
+            - text: Download CV
+            - img [ref=e37]
+      - generic [ref=e39]:
+        - generic [ref=e40]: Scroll
+        - img [ref=e42]
+    - generic [ref=e45]:
+      - generic [ref=e48]: About
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - heading "Full stack engineer shipping products across the modern web and AI." [level=2] [ref=e51]:
+            - generic [ref=e53]: Full
+            - generic [ref=e55]: stack
+            - generic [ref=e57]: engineer
+            - generic [ref=e59]: shipping
+            - generic [ref=e61]: products
+            - generic [ref=e63]: across
+            - generic [ref=e65]: the
+            - generic [ref=e67]: modern
+            - generic [ref=e69]: web
+            - generic [ref=e71]: and
+            - generic [ref=e73]: AI.
+          - paragraph [ref=e74]: 2+ years shipping production. Experienced in Python, Node.js, and Laravel, with modern frontend in React and JavaScript. Skilled in LLM post-training, prompt engineering, API development, and cloud deployment. Currently building AI-powered systems at Ethara AI, previously maintained production infrastructure at Mind2web LLP.
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - generic [ref=e78]: 2+
+              - generic [ref=e79]: Years of experience
+            - generic [ref=e80]: "01"
+          - generic [ref=e81]:
+            - generic [ref=e82]:
+              - generic [ref=e83]: 6+
+              - generic [ref=e84]: Production projects
+            - generic [ref=e85]: "02"
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - generic [ref=e88]: 10+
+              - generic [ref=e89]: Tech stacks shipped
+            - generic [ref=e90]: "03"
+    - generic [ref=e92]:
+      - generic [ref=e95]: Skills
+      - heading "The stack I build with." [level=2] [ref=e96]:
+        - generic [ref=e98]: The
+        - generic [ref=e100]: stack
+        - generic [ref=e102]: I
+        - generic [ref=e104]: build
+        - generic [ref=e106]: with.
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]: 01 / 06
+              - heading "Languages" [level=3] [ref=e112]
+            - generic [ref=e113]: ✺
+          - generic [ref=e114]:
+            - generic [ref=e115]: PHP
+            - generic [ref=e116]: Python
+            - generic [ref=e117]: JavaScript
+            - generic [ref=e118]: C++
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic [ref=e121]:
+              - generic [ref=e122]: 02 / 06
+              - heading "Frontend" [level=3] [ref=e123]
+            - generic [ref=e124]: ✺
+          - generic [ref=e125]:
+            - generic [ref=e126]: React
+            - generic [ref=e127]: JavaScript
+            - generic [ref=e128]: HTML
+            - generic [ref=e129]: CSS
+            - generic [ref=e130]: Bootstrap
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: 03 / 06
+              - heading "Backend" [level=3] [ref=e135]
+            - generic [ref=e136]: ✺
+          - generic [ref=e137]:
+            - generic [ref=e138]: Node.js
+            - generic [ref=e139]: FastAPI
+            - generic [ref=e140]: Flask
+            - generic [ref=e141]: Laravel
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: 04 / 06
+              - heading "Databases" [level=3] [ref=e146]
+            - generic [ref=e147]: ✺
+          - generic [ref=e148]:
+            - generic [ref=e149]: PostgreSQL
+            - generic [ref=e150]: MongoDB
+            - generic [ref=e151]: MySQL
+        - generic [ref=e152]:
+          - generic [ref=e153]:
+            - generic [ref=e154]:
+              - generic [ref=e155]: 05 / 06
+              - heading "Cloud & Tools" [level=3] [ref=e156]
+            - generic [ref=e157]: ✺
+          - generic [ref=e158]:
+            - generic [ref=e159]: AWS S3
+            - generic [ref=e160]: Docker
+            - generic [ref=e161]: Git
+            - generic [ref=e162]: Linux
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic [ref=e165]:
+              - generic [ref=e166]: 06 / 06
+              - heading "AI / LLM" [level=3] [ref=e167]
+            - generic [ref=e168]: ✺
+          - generic [ref=e169]:
+            - generic [ref=e170]: LLM Post-Training
+            - generic [ref=e171]: Prompt Engineering
+            - generic [ref=e172]: Model Evaluation
+            - generic [ref=e173]: Dataset Preparation
+    - generic [ref=e175]:
+      - generic [ref=e176]:
+        - generic [ref=e177]: React
+        - generic [ref=e178]: "*"
+      - generic [ref=e179]:
+        - generic [ref=e180]: Python
+        - generic [ref=e181]: "*"
+      - generic [ref=e182]:
+        - generic [ref=e183]: Node.js
+        - generic [ref=e184]: "*"
+      - generic [ref=e185]:
+        - generic [ref=e186]: FastAPI
+        - generic [ref=e187]: "*"
+      - generic [ref=e188]:
+        - generic [ref=e189]: Laravel
+        - generic [ref=e190]: "*"
+      - generic [ref=e191]:
+        - generic [ref=e192]: PostgreSQL
+        - generic [ref=e193]: "*"
+      - generic [ref=e194]:
+        - generic [ref=e195]: AWS
+        - generic [ref=e196]: "*"
+      - generic [ref=e197]:
+        - generic [ref=e198]: Docker
+        - generic [ref=e199]: "*"
+      - generic [ref=e200]:
+        - generic [ref=e201]: LLM Post-Training
+        - generic [ref=e202]: "*"
+      - generic [ref=e203]:
+        - generic [ref=e204]: Prompt Engineering
+        - generic [ref=e205]: "*"
+      - generic [ref=e206]:
+        - generic [ref=e207]: React
+        - generic [ref=e208]: "*"
+      - generic [ref=e209]:
+        - generic [ref=e210]: Python
+        - generic [ref=e211]: "*"
+      - generic [ref=e212]:
+        - generic [ref=e213]: Node.js
+        - generic [ref=e214]: "*"
+      - generic [ref=e215]:
+        - generic [ref=e216]: FastAPI
+        - generic [ref=e217]: "*"
+      - generic [ref=e218]:
+        - generic [ref=e219]: Laravel
+        - generic [ref=e220]: "*"
+      - generic [ref=e221]:
+        - generic [ref=e222]: PostgreSQL
+        - generic [ref=e223]: "*"
+      - generic [ref=e224]:
+        - generic [ref=e225]: AWS
+        - generic [ref=e226]: "*"
+      - generic [ref=e227]:
+        - generic [ref=e228]: Docker
+        - generic [ref=e229]: "*"
+      - generic [ref=e230]:
+        - generic [ref=e231]: LLM Post-Training
+        - generic [ref=e232]: "*"
+      - generic [ref=e233]:
+        - generic [ref=e234]: Prompt Engineering
+        - generic [ref=e235]: "*"
+    - generic [ref=e237]:
+      - generic [ref=e240]: Experience
+      - heading "Where I've shipped." [level=2] [ref=e241]:
+        - generic [ref=e243]: Where
+        - generic [ref=e245]: I've
+        - generic [ref=e247]: shipped.
+      - generic [ref=e250]:
+        - generic [ref=e251]:
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - heading "Full Stack Engineer" [level=3] [ref=e254]
+              - generic [ref=e255]: Ethara AI
+            - generic [ref=e256]:
+              - generic [ref=e257]: Jan 2026 — Present
+              - generic [ref=e258]:
+                - img [ref=e259]
+                - text: Gurugram, India
+          - list [ref=e262]:
+            - listitem [ref=e263]:
+              - generic [ref=e265]: Building APIs and backend systems using Python (FastAPI / Flask) for AI-powered applications.
+            - listitem [ref=e266]:
+              - generic [ref=e268]: Contributing to LLM post-training workflows — dataset preparation, evaluation pipelines, and response quality improvement.
+            - listitem [ref=e269]:
+              - generic [ref=e271]: Developing internal tools to support AI model evaluation and prompt optimization.
+            - listitem [ref=e272]:
+              - generic [ref=e274]: Integrating LLM capabilities into products for intelligent automation and enhanced user experiences.
+            - listitem [ref=e275]:
+              - generic [ref=e277]: Collaborating with cross-functional teams to improve AI system performance and reliability.
+        - generic [ref=e278]:
+          - generic [ref=e279]:
+            - generic [ref=e280]:
+              - heading "Software Engineer" [level=3] [ref=e281]
+              - generic [ref=e282]: Mind2web LLP
+            - generic [ref=e283]:
+              - generic [ref=e284]: Aug 2023 — Oct 2025
+              - generic [ref=e285]:
+                - img [ref=e286]
+                - text: Remote
+          - list [ref=e289]:
+            - listitem [ref=e290]:
+              - generic [ref=e292]: Configured and deployed multiple production projects on servers, ensuring optimal performance.
+            - listitem [ref=e293]:
+              - generic [ref=e295]: Fixed critical bugs and optimized backend code to improve scalability and system reliability.
+            - listitem [ref=e296]:
+              - generic [ref=e298]: Set up Linux servers and configured environments (Apache, Nginx, PHP, Node.js).
+            - listitem [ref=e299]:
+              - generic [ref=e301]: Implemented security configurations, monitoring systems, and performance optimization strategies.
+    - generic [ref=e303]:
+      - generic [ref=e306]: Selected Work
+      - generic [ref=e307]:
+        - heading "Projects in production." [level=2] [ref=e308]:
+          - generic [ref=e310]: Projects
+          - generic [ref=e312]: in
+          - generic [ref=e314]: production.
+        - paragraph [ref=e315]: A selection of projects shipped to real users — from AI chat to multi-tenant commerce.
+      - generic [ref=e316]:
+        - link "01 ↗ Yot Ecommerce Jan 2025 — Oct 2025 Improved product search, workflows, and notifications using Meilisearch, Ragic DB, and Twilio. Developed product management modules with secure OAuth2 authentication. Built background jobs to fetch supplier data and auto-update product listings. Implemented optimized PostgreSQL queries for efficient listing retrieval. Meilisearch Ragic DB Twilio OAuth2 PostgreSQL Visit live" [ref=e317]:
+          - /url: https://fuse.systems
+          - generic [ref=e319]:
+            - generic [ref=e320]: "01"
+            - generic [ref=e321]: ↗
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - heading "Yot Ecommerce" [level=3] [ref=e324]
+              - generic [ref=e325]: Jan 2025 — Oct 2025
+            - list [ref=e326]:
+              - listitem [ref=e327]:
+                - generic [ref=e329]: Improved product search, workflows, and notifications using Meilisearch, Ragic DB, and Twilio.
+              - listitem [ref=e330]:
+                - generic [ref=e332]: Developed product management modules with secure OAuth2 authentication.
+              - listitem [ref=e333]:
+                - generic [ref=e335]: Built background jobs to fetch supplier data and auto-update product listings.
+              - listitem [ref=e336]:
+                - generic [ref=e338]: Implemented optimized PostgreSQL queries for efficient listing retrieval.
+            - generic [ref=e339]:
+              - generic [ref=e340]: Meilisearch
+              - generic [ref=e341]: Ragic DB
+              - generic [ref=e342]: Twilio
+              - generic [ref=e343]: OAuth2
+              - generic [ref=e344]: PostgreSQL
+            - generic [ref=e345]:
+              - generic [ref=e346]: Visit live
+              - img [ref=e348]
+        - link "02 ↗ Remodely Oct 2024 — Dec 2025 Built service booking modules and admin dashboards for bathroom and interior design services. Improved UI functionality and integrated backend services for seamless booking management. Laravel MySQL Admin Dashboards Service Booking Visit live" [ref=e351]:
+          - /url: https://remodely.com
+          - generic [ref=e353]:
+            - generic [ref=e354]: "02"
+            - generic [ref=e355]: ↗
+          - generic [ref=e356]:
+            - generic [ref=e357]:
+              - heading "Remodely" [level=3] [ref=e358]
+              - generic [ref=e359]: Oct 2024 — Dec 2025
+            - list [ref=e360]:
+              - listitem [ref=e361]:
+                - generic [ref=e363]: Built service booking modules and admin dashboards for bathroom and interior design services.
+              - listitem [ref=e364]:
+                - generic [ref=e366]: Improved UI functionality and integrated backend services for seamless booking management.
+            - generic [ref=e367]:
+              - generic [ref=e368]: Laravel
+              - generic [ref=e369]: MySQL
+              - generic [ref=e370]: Admin Dashboards
+              - generic [ref=e371]: Service Booking
+            - generic [ref=e372]:
+              - generic [ref=e373]: Visit live
+              - img [ref=e375]
+        - link "03 ↗ Service Points Oct 2023 — Oct 2024 Built and integrated chatbot functionalities using prompt engineering techniques. Developed real-time chat features using WebSockets and CKEditor in Node.js. Built performance monitoring charts showing 7-day page load trends via automated cURL requests. Resolved UI inconsistencies to improve visual quality and usability across the application. Node.js WebSockets CKEditor Prompt Engineering Visit live" [ref=e378]:
+          - /url: https://app.servicepoints.nl
+          - generic [ref=e380]:
+            - generic [ref=e381]: "03"
+            - generic [ref=e382]: ↗
+          - generic [ref=e383]:
+            - generic [ref=e384]:
+              - heading "Service Points" [level=3] [ref=e385]
+              - generic [ref=e386]: Oct 2023 — Oct 2024
+            - list [ref=e387]:
+              - listitem [ref=e388]:
+                - generic [ref=e390]: Built and integrated chatbot functionalities using prompt engineering techniques.
+              - listitem [ref=e391]:
+                - generic [ref=e393]: Developed real-time chat features using WebSockets and CKEditor in Node.js.
+              - listitem [ref=e394]:
+                - generic [ref=e396]: Built performance monitoring charts showing 7-day page load trends via automated cURL requests.
+              - listitem [ref=e397]:
+                - generic [ref=e399]: Resolved UI inconsistencies to improve visual quality and usability across the application.
+            - generic [ref=e400]:
+              - generic [ref=e401]: Node.js
+              - generic [ref=e402]: WebSockets
+              - generic [ref=e403]: CKEditor
+              - generic [ref=e404]: Prompt Engineering
+            - generic [ref=e405]:
+              - generic [ref=e406]: Visit live
+              - img [ref=e408]
+    - generic [ref=e412]:
+      - generic [ref=e415]: Education
+      - heading "The foundation." [level=2] [ref=e416]:
+        - generic [ref=e418]: The
+        - generic [ref=e420]: foundation.
+      - generic [ref=e421]:
+        - generic [ref=e422]:
+          - generic [ref=e423]:
+            - img [ref=e424]
+            - generic [ref=e427]: Jul 2019 — Jun 2023
+          - heading "B.Tech — Computer Science" [level=3] [ref=e428]
+          - generic [ref=e429]: Panipat Institute of Engineering and Technology
+          - generic [ref=e430]: "Score: 67.4%"
+        - generic [ref=e431]:
+          - generic [ref=e432]:
+            - img [ref=e433]
+            - generic [ref=e436]: Mar 2018 — Mar 2019
+          - heading "12th — Science" [level=3] [ref=e437]
+          - generic [ref=e438]: Hindu Vidya Peeth
+          - generic [ref=e439]: "Score: 64%"
+    - generic [ref=e441]:
+      - generic [ref=e444]: Contact
+      - heading "Let's build something." [level=2] [ref=e445]
+      - paragraph [ref=e446]: Open to full-time roles, freelance, and meaningful collaborations. Drop a line — I usually respond within 24 hours.
+      - generic [ref=e447]:
+        - generic [ref=e448]:
+          - button "Copy email address" [ref=e449]:
+            - generic [ref=e450]: Kshitijbhardwajkb28@gmail.com
+            - img [ref=e452]
+          - generic [ref=e455]:
+            - generic [ref=e456]: +91 97299 16844
+            - generic [ref=e457]: Gurugram, India
+          - generic [ref=e458]:
+            - link "Email" [ref=e459]:
+              - /url: mailto:Kshitijbhardwajkb28@gmail.com
+              - img [ref=e460]
+            - link "LinkedIn" [ref=e463]:
+              - /url: https://www.linkedin.com/in/kshitij-bhardwaj-067240232
+              - img [ref=e464]
+            - link "GitHub" [ref=e468]:
+              - /url: https://github.com/Kshitijkb28
+              - img [ref=e469]
+        - generic [ref=e473]:
+          - generic [ref=e474]:
+            - generic [ref=e475]:
+              - generic [ref=e476]: Name
+              - textbox "Name" [ref=e477]:
+                - /placeholder: Your name
+            - generic [ref=e478]:
+              - generic [ref=e479]: Email
+              - textbox "Email" [ref=e480]:
+                - /placeholder: you@company.com
+          - generic [ref=e481]:
+            - generic [ref=e482]: Message
+            - textbox "Message" [ref=e483]:
+              - /placeholder: Tell me about your project...
+          - button "Send message" [ref=e485]:
+            - text: Send message
+            - img [ref=e486]
+  - contentinfo [ref=e489]:
+    - generic [ref=e490]:
+      - generic [ref=e491]:
+        - generic [ref=e492]: K
+        - generic [ref=e493]:
+          - generic [ref=e494]: Kshitij Bhardwaj
+          - generic [ref=e495]: Full Stack Engineer
+      - generic [ref=e496]:
+        - link "GitHub" [ref=e497]:
+          - /url: https://github.com/Kshitijkb28
+        - link "LinkedIn" [ref=e498]:
+          - /url: https://www.linkedin.com/in/kshitij-bhardwaj-067240232
+        - link "Email" [ref=e499]:
+          - /url: mailto:Kshitijbhardwajkb28@gmail.com
+        - generic [ref=e500]: © 2026 — Crafted with care.

@@ -1,0 +1,32 @@
+[      75ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=80ecd820:14090
+[     141ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:5173/node_modules/.vite/deps/framer-motion.js?v=779b62ec:182
+[     494ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:5173/node_modules/.vite/deps/three.module-cLrRfqXO.js?v=edb05019:1728
+[    1376ms] [LOG] THREE.WebGLRenderer: Context Lost. @ http://localhost:5173/node_modules/.vite/deps/three.module-cLrRfqXO.js?v=edb05019:1694
+[   45909ms] ReferenceError: Environment is not defined
+    at Hero3DContent (http://localhost:5173/src/components/Scene3D.tsx?t=1777917298014:220:27)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:7518:13)
+    at It (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:3646:13)
+    at ks (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:4668:362)
+    at tt (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:4989:21)
+    at B (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:2498:55)
+    at Ph (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6758:38)
+    at wh (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6677:26)
+    at Ff (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6668:7)
+    at Lf (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6459:48)
+[   45913ms] ReferenceError: Environment is not defined
+    at Hero3DContent (http://localhost:5173/src/components/Scene3D.tsx?t=1777917298014:220:27)
+    at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:7518:13)
+    at It (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:3646:13)
+    at ks (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:4668:362)
+    at tt (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:4989:21)
+    at B (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:2498:55)
+    at Ph (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6758:38)
+    at wh (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6677:26)
+    at Ff (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6668:7)
+    at Lf (http://localhost:5173/node_modules/.vite/deps/react-three-fiber.esm-DSu-wJRH.js?v=edb05019:6459:48)
+[   45913ms] [WARNING] %s
+
+%s
+ An error occurred in the <CanvasImpl> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=80ecd820:5010
+[   56279ms] [WARNING] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead. @ http://localhost:5173/node_modules/.vite/deps/three.module-cLrRfqXO.js?v=edb05019:1728
