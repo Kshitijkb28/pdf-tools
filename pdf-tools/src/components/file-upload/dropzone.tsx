@@ -60,18 +60,24 @@ export function Dropzone({ accept, multiple = true, onFiles, maxSize = MAX_FILE_
     [onFiles]
   );
 
+  const acceptLabel = accept.includes("application/pdf")
+    ? "PDF files"
+    : accept.includes("image/jpeg")
+    ? "JPG, PNG, WebP images"
+    : "Supported files";
+
   return (
     <motion.div
       onClick={handleClick}
       onDragOver={handleDragOver}
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
-      animate={isDragging ? { scale: 1.02 } : { scale: 1 }}
+      animate={isDragging ? { scale: 1.01 } : { scale: 1 }}
       className={cn(
-        "relative flex min-h-[240px] cursor-pointer flex-col items-center justify-center rounded-2xl border-2 border-dashed transition-colors",
+        "relative flex min-h-[200px] cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed transition-all duration-200",
         isDragging
-          ? "border-purple-500 bg-purple-50 dark:bg-purple-950/30"
-          : "border-slate-300 bg-slate-50 hover:border-purple-400 hover:bg-purple-50/50 dark:border-slate-600 dark:bg-slate-800/50 dark:hover:border-purple-500",
+          ? "border-purple-500 bg-purple-50/80 shadow-lg shadow-purple-500/10 dark:bg-purple-950/30"
+          : "border-slate-300 bg-slate-50/50 hover:border-purple-400 hover:bg-purple-50/30 dark:border-slate-600 dark:bg-slate-800/30 dark:hover:border-purple-500",
         className
       )}
     >
@@ -85,21 +91,24 @@ export function Dropzone({ accept, multiple = true, onFiles, maxSize = MAX_FILE_
       />
       <motion.div
         animate={isDragging ? { y: -4 } : { y: 0 }}
-        className="flex flex-col items-center gap-3"
+        className="flex flex-col items-center gap-4"
       >
-        <div className="rounded-full bg-purple-100 p-4 dark:bg-purple-900/50">
+        <div className={cn(
+          "rounded-2xl bg-gradient-to-br from-purple-500 to-blue-500 p-4 shadow-lg shadow-purple-500/20",
+          !isDragging && "animate-pulse-subtle"
+        )}>
           {isDragging ? (
-            <FileText className="h-8 w-8 text-purple-600 dark:text-purple-400" />
+            <FileText className="h-8 w-8 text-white" />
           ) : (
-            <Upload className="h-8 w-8 animate-pulse-subtle text-purple-600 dark:text-purple-400" />
+            <Upload className="h-8 w-8 text-white" />
           )}
         </div>
         <div className="text-center">
-          <p className="text-base font-medium text-slate-700 dark:text-slate-200">
-            {isDragging ? "Drop files here" : "Drag files here or click to browse"}
+          <p className="text-base font-semibold text-slate-700 dark:text-slate-200">
+            {isDragging ? "Drop files here" : "Drop files here or click to browse"}
           </p>
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            {getFileTypeLabel(accept)} · Max {Math.round(maxSize / 1024 / 1024)}MB per file
+          <p className="mt-1.5 text-sm text-slate-500 dark:text-slate-400">
+            {acceptLabel} · Max {Math.round(maxSize / 1024 / 1024)}MB
           </p>
         </div>
       </motion.div>
