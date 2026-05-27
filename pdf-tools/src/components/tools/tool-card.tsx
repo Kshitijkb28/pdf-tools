@@ -14,20 +14,25 @@ export function ToolCard({ tool }: ToolCardProps) {
   return (
     <Link href={`/${tool.slug}`} className="block">
       <div
-        className="group flex h-full flex-col items-center gap-2.5 rounded-md border border-gray-200 bg-white p-4 transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md dark:border-gray-700 dark:bg-gray-900 dark:hover:border-gray-600"
+        className="group relative flex h-full flex-col items-center gap-3 rounded-lg border border-gray-200 bg-white p-5 shadow-sm transition-all duration-200 hover:-translate-y-1 hover:border-gray-300 hover:shadow-lg dark:border-gray-700 dark:bg-gray-900 dark:hover:border-gray-500"
+        style={{ "--cat-color": categoryColor } as React.CSSProperties}
       >
         <div
-          className="flex h-9 w-9 items-center justify-center rounded-md transition-colors duration-150"
+          className="flex h-11 w-11 items-center justify-center rounded-lg transition-all duration-200 group-hover:scale-110"
           style={{
-            backgroundColor: `${categoryColor}14`,
+            backgroundColor: `${categoryColor}30`,
             color: categoryColor,
           }}
         >
-          <Icon className="h-5 w-5" />
+          <Icon className="h-[22px] w-[22px]" />
         </div>
-        <span className="text-center text-[13px] font-medium text-gray-700 dark:text-gray-200">
+        <span className="text-center text-[13px] font-semibold text-gray-800 dark:text-gray-100">
           {tool.name}
         </span>
+        <div
+          className="absolute inset-x-0 bottom-0 h-0.5 rounded-b-lg opacity-0 transition-opacity duration-200 group-hover:opacity-100"
+          style={{ backgroundColor: categoryColor }}
+        />
       </div>
     </Link>
   );

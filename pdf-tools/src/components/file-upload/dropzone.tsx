@@ -65,10 +65,10 @@ export function Dropzone({ accept, multiple = true, onFiles, maxSize = MAX_FILE_
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
       className={cn(
-        "flex min-h-[180px] cursor-pointer flex-col items-center justify-center rounded-md border-2 border-dashed transition-colors duration-150",
+        "group flex min-h-[220px] cursor-pointer flex-col items-center justify-center rounded-xl border-2 border-dashed transition-all duration-200",
         isDragging
-          ? "border-brand bg-red-50/50 dark:border-brand dark:bg-red-950/20"
-          : "border-gray-300 bg-white hover:border-gray-400 dark:border-gray-600 dark:bg-gray-900 dark:hover:border-gray-500",
+          ? "border-brand bg-red-50 shadow-inner dark:border-brand dark:bg-red-950/30"
+          : "border-gray-300 bg-white hover:border-brand/50 hover:bg-red-50/30 dark:border-gray-600 dark:bg-gray-900 dark:hover:border-brand/50 dark:hover:bg-red-950/10",
         className
       )}
     >
@@ -80,19 +80,26 @@ export function Dropzone({ accept, multiple = true, onFiles, maxSize = MAX_FILE_
         onChange={handleChange}
         className="hidden"
       />
-      <div className="flex flex-col items-center gap-3">
-        <div className="flex h-10 w-10 items-center justify-center rounded-md bg-gray-100 dark:bg-gray-800">
+      <div className="flex flex-col items-center gap-4">
+        <div
+          className={cn(
+            "flex h-14 w-14 items-center justify-center rounded-xl transition-all duration-200",
+            isDragging
+              ? "bg-brand/10 text-brand"
+              : "bg-brand/5 text-brand/70 group-hover:bg-brand/10 group-hover:text-brand"
+          )}
+        >
           {isDragging ? (
-            <FileText className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+            <FileText className="h-7 w-7" />
           ) : (
-            <Upload className="h-5 w-5 text-gray-500 dark:text-gray-400" />
+            <Upload className="h-7 w-7" />
           )}
         </div>
         <div className="text-center">
-          <p className="text-sm font-medium text-gray-700 dark:text-gray-200">
+          <p className="text-sm font-semibold text-gray-800 dark:text-gray-100">
             {isDragging ? "Drop files here" : "Drop files here or click to browse"}
           </p>
-          <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
+          <p className="mt-1.5 text-xs text-gray-500 dark:text-gray-400">
             {acceptLabel} · Max {Math.round(maxSize / 1024 / 1024)}MB
           </p>
         </div>
